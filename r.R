@@ -32,6 +32,7 @@ for(i in 300:length(sma90)) {
 
 ret <- Return.calculate(stockdata$R)
 
+# chart options
 #chartSeries(stockdata$adjusted)
 #addSMA(90)
 #addSMA(300, col = "blue")
